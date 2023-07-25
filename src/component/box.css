@@ -1,0 +1,84 @@
+.logo {
+  height: 50px;
+  width: 150px;
+  padding: 0;
+  margin: 0;
+  display: block;
+  margin-bottom: 5px;
+}
+.text {
+  font-size: 14px;
+  font-weight: 600;
+}
+h2 {
+  margin-top: 10px;
+}
+.war {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.img {
+  width: 40px;
+  height: 40px;
+}
+.sep {
+  display: flex;
+  gap: 5px;
+  margin-top: 15px;
+}
+.logotxt {
+  font-size: 14px;
+  font-weight: 700;
+}
+.ver {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(4, 75, 169);
+}
+.stat {
+  font-weight: 700;
+  margin-top: 15px;
+}
+.txt {
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.txtwar {
+  font-size: 12px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.txtware {
+  font-size: 13px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+span {
+  color: rgb(12, 90, 193);
+  cursor: pointer;
+}
+.btn {
+  display: flex;
+  margin-top: 10px;
+  gap: 4px;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+button {
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 100;
+  gap: 10px;
+  cursor: pointer;
+  border: none;
+}
+.accept {
+  background-color: rgb(12, 90, 193);
+  color: white;
+  outline: none;
+  border: none;
+}

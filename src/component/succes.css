@@ -1,0 +1,33 @@
+h1 {
+  font-size: 3rem;
+  background-color: #f3ec78;
+  background-image: linear-gradient(45deg, #e55d87, #5fc3e4);
+  background-size: 100%;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.heading {
+  text-align: center;
+  margin-top: -5px;
+  background-color: #f3ec78;
+  background-image: linear-gradient(45deg, #e55d87, #5fc3e4);
+  background-size: 100%;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.new {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.illus {
+  height: 250px;
+  margin-top: -50px;
+  width: 300px;
+}

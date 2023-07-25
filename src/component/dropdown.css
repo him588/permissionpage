@@ -1,0 +1,42 @@
+.drop {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 4px;
+}
+#img {
+  height: 12px;
+  width: 20px;
+  cursor: pointer;
+  transition: 1s all;
+}
+.imgrot {
+  transform: rotate(180deg);
+}
+label {
+  cursor: pointer;
+}
+.dummy {
+  border-radius: 5px;
+
+  overflow: hidden;
+
+  transition: all 1s;
+
+  height: 0;
+}
+.dummyshow {
+  height: 120px;
+}
+.innertext {
+  padding: 0 10px;
+  font-size: 14px;
+
+  transform: translateY(-100px);
+  transition: all 0.8s;
+}
+.show {
+  font-size: 14px;
+  transform: translateY(0px);
+}
