@@ -21,7 +21,7 @@ function Succes({ setshowcontent, setshowhome }) {
       <img className="box_logo" src={logo} alt="" />
       <h1 className="head">Thanks for supporting us</h1>
       <p className="msg">We will appreciate you efforts</p>
-      <button className="home" onClick={handleclick}>
+      <button className="home_btn" onClick={handleclick}>
         Return to Home
       </button>
       <p className="msg">
