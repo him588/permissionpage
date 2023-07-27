@@ -2,25 +2,43 @@ import { useState } from "react";
 import "./App.css";
 import Content from "./component/box";
 import Succes from "./component/succes";
+import Design from "./component/design";
+import Privacy from "./component/privacy";
 
 function App() {
   const [showcontent, setshowcontent] = useState(true);
+  const [showhome, setshowhome] = useState(false);
+
   return (
     <div className="body">
-      <div className="div top_left"></div>
-      <div className="div top_right"></div>
-      <div className="div bottom_left"></div>
-      <div className="div bottom_right"></div>
-      <div className="cover"></div>
-      {showcontent ? (
-        <div className="box">
+      {(() => {
+        if (showhome === false) {
+          return <Privacy setshowhome={setshowhome}></Privacy>;
+        } else if (showcontent && showhome) {
+          return (
+            <div>
+              <Design></Design>
+              <Content setshowcontent={setshowcontent}></Content>
+            </div>
+          );
+        } else if (showcontent === false) {
+          return (
+            <Succes
+              setshowcontent={setshowcontent}
+              setshowhome={setshowhome}
+            ></Succes>
+          );
+        }
+      })()}
+
+      {/* {showcontent ? (
+        <div>
+          <Design></Design>
           <Content setshowcontent={setshowcontent}></Content>
         </div>
       ) : (
-        <div className="new_box">
-          <Succes></Succes>
-        </div>
-      )}
+        <Succes></Succes>
+      )} */}
     </div>
   );
 }

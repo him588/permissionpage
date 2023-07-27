@@ -10,7 +10,7 @@ function Content({ setshowcontent }) {
     setshowcontent(false);
   }
   return (
-    <div>
+    <div className="box">
       <img src={logo} className="logo" alt="micro" />
       <p className="text">Himanshukashyap@microsoft.com</p>
       <h2>Permission requested</h2>
